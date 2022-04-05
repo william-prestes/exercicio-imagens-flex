@@ -1,0 +1,45 @@
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.obras{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.obras .pintura{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.obras .pintura img{
+    width: 100%;
+}
+
+.obras .pintura .infos{
+    color: #ffffff;
+    position: absolute;
+    bottom: 42px;
+    left: 20px;
+}
+
+.obras .pintura .infos .titulo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.obras .pintura .infos .autor{
+    font-size: 18px;
+    font-weight: 300;
+}
